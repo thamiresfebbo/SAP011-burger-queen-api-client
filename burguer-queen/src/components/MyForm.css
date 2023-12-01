@@ -1,0 +1,60 @@
+
+
+@import url('https://fonts.cdnfonts.com/css/baloo-chettan-2');
+@import url('https://fonts.cdnfonts.com/css/kg-always-a-good-time');
+
+  form{
+    font-family: 'Baloo Chettan 2', sans-serif;
+    display: block;
+    width: 532px;
+    height: 646px;
+    margin: 0 auto;
+    text-align: center;
+    background: #FCFBFB;
+    border-radius: 64px;
+  }
+  
+  input, textarea, select {
+    font-family: 'Baloo Chettan 2', sans-serif;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .role {
+    display: flex;
+  }
+  
+  .role label {
+    margin-left: -30px;
+    margin-right: -30px;
+
+  }
+  form div{
+    justify-content: center;
+    align-items: center;
+  }
+.títuloForm{
+    font-family: 'KG Always A Good Time', sans-serif;
+    color: #E4AEC2;   
+    font-size: 55px; 
+}
+
+input{
+  border: none;
+  background-color: transparent;
+  width: 300px;
+  font-size: 18px;
+  padding: 7px;
+  border-bottom: 2px solid #E4AEC2; 
+} 
+.submit{
+  background: #E4AEC2;
+  width: 131px;
+  height: 54px;
+  border-radius: 25px;
+  color: #FCFBFB;
+  font-size: 25px;
+  text-align: center;
+
+}
