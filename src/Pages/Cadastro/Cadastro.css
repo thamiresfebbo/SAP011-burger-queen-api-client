@@ -24,7 +24,7 @@ form div {
   margin-bottom: 20px; /* Espaciado entre elementos dentro del formulario */
 }
 
-.subtítuloForm{
+.subTítuloForm{
     color: #E4AEC2;
     font-size: 50px;
     margin-block: 0;
@@ -41,6 +41,8 @@ input, textarea, select {
   width:340px;
   padding: 10px;
   margin-top: 10px; /* Ajusta según sea necesario */
+  font-family: 'Baloo Chettan 2', sans-serif;
+
   font-size: 18px;
   border: none;
   border-bottom: 2px solid #E4AEC2;
@@ -70,4 +72,10 @@ input:focus{
   font-size: 25px;
   text-align: center;
   cursor: pointer;
+}
+.btnCadastrar{
+  color: #456872;
+  cursor: pointer;
+  border-bottom: none;
+  font-weight: bold;
 }

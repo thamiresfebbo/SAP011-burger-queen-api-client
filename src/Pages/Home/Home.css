@@ -1,0 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/baloo-chettan-2');
+@import url('https://fonts.cdnfonts.com/css/kg-always-a-good-time');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    position:center;
+    width: 100vw; /* Garante que o cabeçalho ocupe toda a largura da tela */
+    top: 0; /* Fixa o cabeçalho no topo da página */
+    z-index: 1000; /* Ajusta a ordem de empilhamento se houver sobreposição com outros elementos */
+}
+
+.tabs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tabs li.active {
+    font-weight: bold;
+}
