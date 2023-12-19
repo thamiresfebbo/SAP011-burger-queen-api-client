@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: auto;
 }
 
 .header-container {
@@ -31,3 +32,22 @@ body {
 .tabs li.active {
     font-weight: bold;
 }
+.menu-café, .menu-bebidas, .menu-lanches {
+    display: flex;
+    justify-content: space-between; /* Adiciona espaço igual entre as imagens */
+    align-items: center; /* Centraliza verticalmente os itens */
+  }
+  .menu-item{
+    text-align: center; /* Centraliza o texto dentro do menu-item */
+  }
+  
+  .menu-item img {
+    max-width: 100px; /* Define uma largura máxima para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  .quantidade{
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    border: #fff;
+  }
